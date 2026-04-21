@@ -5,5 +5,9 @@
   "installCommand": null,
   "outputDirectory": "dist",
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/listing/:id", "destination": "/listing/[id].html" },
+    { "source": "/chat/:id", "destination": "/chat/[id].html" }
+  ]
 }
