@@ -5,9 +5,9 @@ node_modules/
 
 # Expo
 .expo/
+dist/
 web-build/
 expo-env.d.ts
-# dist/ — intentionally tracked for Vercel static deploy
 
 # Native
 .kotlin/
@@ -37,4 +37,3 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
-.vercel
