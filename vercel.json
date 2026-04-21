@@ -7,7 +7,7 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "rewrites": [
-    { "source": "/listing/:id", "destination": "/listing/%5Bid%5D.html" },
-    { "source": "/chat/:id", "destination": "/chat/%5Bid%5D.html" }
+    { "source": "/listing/:id", "destination": "/listing/_id.html" },
+    { "source": "/chat/:id", "destination": "/chat/_id.html" }
   ]
 }
